@@ -1,0 +1,26 @@
+nav{
+    background-color: #7B1FA2;
+}
+
+.nav-links{
+    font-size: 22px;
+    font-family: 'Cherry Swash', cursive;
+}
+
+.nav-item {
+    margin-left: 50%;
+}
+
+a.nav-links:hover{
+    transform: scale(1.1);
+}
+
+a.nav-links:active{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px){
+    #nav-brand{
+        width: 200px;
+    }
+}
