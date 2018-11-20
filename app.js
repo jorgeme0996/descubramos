@@ -2,7 +2,7 @@ var express         = require("express"),
     app             = express(),
     bodyParser      = require("body-parser"),
     mongoose        = require("mongoose"),
-    port            = 4000
+    port            = 4000;
 
 //mongoose.connect("mongodb://jorge:jorge007@ds155862.mlab.com:55862/gourou", {useNewUrlParser: true});
 //mongoose.connect("mongodb://localhost/Descubramos", {useNewUrlParser: true});
